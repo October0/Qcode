@@ -2,7 +2,7 @@
     <head>  
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
         <title>高德地图下载</title>     
-   
+        
         <script type="text/javascript">  
             /*  
              * 智能机浏览器版本信息:  
@@ -32,7 +32,10 @@
             }  
             else if (browser.versions.android) {  
                 window.location="http://download.chipluses.com:9000/index.html"
-            }  
+            }
+            else {
+                console.log("test")
+            }
    
 //            document.writeln("语言版本: " + browser.language);  
 //            document.writeln(" 是否为移动终端: " + browser.versions.mobile);  
